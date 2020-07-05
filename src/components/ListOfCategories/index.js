@@ -7,7 +7,7 @@ const useCategoriesData = () => {
 
   useEffect(() => {
     window
-      .fetch("https://pokegram-server-milagros-rios.vercel.app/categories")
+      .fetch("https://pokegram-server-mariwrios.vercel.app/categories")
       .then(res => res.json())
       .then(response => {
         setCategories(response);
